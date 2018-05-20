@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgApp.controller.RetirementController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgApp.controller.RetirementController">
    <bottom>
       <HBox prefHeight="35.0" prefWidth="410.0" BorderPane.alignment="CENTER">
          <children>
@@ -23,7 +23,7 @@
       <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
    </left>
    <right>
-      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+      <VBox prefHeight="200.0" prefWidth="100.0" stylesheets="@application.css" BorderPane.alignment="CENTER" />
    </right>
    <top>
       <HBox alignment="TOP_CENTER" prefHeight="45.0" prefWidth="600.0" BorderPane.alignment="CENTER">
@@ -54,7 +54,7 @@
          <children>
             <Label text="Save Each Month" />
             <Label text="Years to Work" GridPane.rowIndex="1" />
-            <Label text="Working Annual Return (%)" GridPane.rowIndex="2" />
+            <Label text="Working Annual Return (Decimal %)" GridPane.rowIndex="2" />
             <Label text="Amount You Need to Save" GridPane.rowIndex="4" />
             <Label text="Years Retired" GridPane.rowIndex="6" />
             <Label text="Retired Annual Return (%)" GridPane.rowIndex="7" />
